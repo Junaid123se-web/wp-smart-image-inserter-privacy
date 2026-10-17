@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - WP Smart Image Inserter</title>
+  <style>
+    body {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.65;
+      color: #202124;
+    }
+
+    h1, h2 {
+      color: #111827;
+    }
+
+    h1 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 14px;
+    }
+
+    section {
+      margin-top: 32px;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #5f6368;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy for WP Smart Image Inserter</h1>
+
+    <p><strong>Effective date:</strong> October 17, 2026</p>
+
+    <p>
+      WP Smart Image Inserter is a Chrome extension that helps users match
+      local images to H2 headings in the WordPress Gutenberg editor, upload
+      reviewed images to their WordPress website, and insert image blocks
+      beneath the corresponding headings.
+    </p>
+
+    <section>
+      <h2>Publisher</h2>
+      <p><strong>Publisher:</strong> YOUR NAME OR BUSINESS NAME</p>
+      <p>
+        <strong>Contact:</strong>
+        <a href="mailto:thenestgarden02096@gmail.com">YOUR SUPPORT EMAIL</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Information handled by the extension</h2>
+      <p>The extension handles the following information only when the user opens and operates it:</p>
+      <ul>
+        <li>The active WordPress website origin and tab identifier.</li>
+        <li>WordPress post title, post ID, post status, native H2 heading text, Gutenberg block identifiers, and whether an image already exists beneath a heading.</li>
+        <li>Images explicitly selected by the user, including filenames, file types, file sizes, previews, and matching choices.</li>
+        <li>Operation progress, insertion results, WordPress media identifiers, and error information.</li>
+      </ul>
+      <p>The extension does not collect analytics or telemetry.</p>
+    </section>
+
+    <section>
+      <h2>How information is used</h2>
+      <p>Information is used only to:</p>
+      <ul>
+        <li>Scan native H2 blocks in the active WordPress Gutenberg editor.</li>
+        <li>Match selected image filenames with heading text.</li>
+        <li>Allow the user to review proposed matches.</li>
+        <li>Upload approved images to the selected WordPress website.</li>
+        <li>Insert image blocks beneath corresponding headings.</li>
+        <li>Restore operation progress and retry failed operations.</li>
+        <li>Save an unpublished draft when explicitly requested.</li>
+      </ul>
+      <p>The extension does not publish WordPress posts automatically.</p>
+    </section>
+
+    <section>
+      <h2>Local storage and retention</h2>
+      <p>
+        Editor metadata, image matches, and operation progress are stored
+        temporarily in chrome.storage.session and normally disappear when the
+        browser session ends.
+      </p>
+      <p>
+        Selected images are stored locally in extension IndexedDB so an
+        operation can continue after the popup closes and failed operations can
+        be retried. They remain until the user selects another folder, uses
+        Reset Selection, clears the extension's local data, or uninstalls the
+        extension.
+      </p>
+      <p>
+        The extension does not store WordPress passwords, cookies, REST nonces,
+        API keys, or authentication tokens.
+      </p>
+    </section>
+
+    <section>
+      <h2>Network communication</h2>
+      <p>
+        User-approved images are uploaded only to the same-origin WordPress REST
+        API of the website currently being edited.
+      </p>
+      <p>
+        The extension uses the user's existing WordPress login session.
+        WordPress authentication information and REST nonces are not transmitted
+        to the extension developer.
+      </p>
+      <p>
+        HTTPS is required for non-local WordPress websites. HTTP is supported
+        only for localhost and 127.0.0.1 development environments.
+      </p>
+      <p>
+        The extension does not send information to the extension developer,
+        analytics services, advertising networks, data brokers, or unrelated
+        third parties.
+      </p>
+    </section>
+
+    <section>
+      <h2>Data sharing and sale</h2>
+      <p>The extension does not sell user data.</p>
+      <p>
+        Information is transferred only to the WordPress website selected by the
+        user when necessary to provide image-upload and insertion functionality.
+      </p>
+      <p>
+        The user's WordPress hosting provider and infrastructure may process
+        uploaded images according to that website owner's privacy practices.
+      </p>
+    </section>
+
+    <section>
+      <h2>Remote code</h2>
+      <p>
+        All executable code is included inside the installed extension package.
+        The extension does not download or execute remotely hosted JavaScript or
+        other remote executable code.
+      </p>
+    </section>
+
+    <section>
+      <h2>Security</h2>
+      <ul>
+        <li>HTTPS is required for non-local WordPress websites.</li>
+        <li>Supported image file types, sizes, and file signatures are validated.</li>
+        <li>Filenames and alternative text are sanitized.</li>
+        <li>Cross-origin REST API destinations are blocked.</li>
+        <li>Uploads are processed sequentially.</li>
+        <li>Passwords and authentication tokens are not stored.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>User control</h2>
+      <p>Users control:</p>
+      <ul>
+        <li>When an article is scanned.</li>
+        <li>Which image folder and files are selected.</li>
+        <li>Which image matches are approved.</li>
+        <li>When images are uploaded and inserted.</li>
+        <li>Whether an unpublished draft is saved.</li>
+      </ul>
+      <p>
+        Users can remove locally stored images and operation results using
+        Reset Selection. Uninstalling the extension removes its extension-local
+        data through Chrome.
+      </p>
+    </section>
+
+    <section>
+      <h2>Limited Use</h2>
+      <p>
+        Information obtained through Chrome extension permissions and APIs is
+        used only to provide WP Smart Image Inserter's disclosed single purpose.
+      </p>
+      <p>
+        The use of information received from Google APIs will adhere to the
+        Chrome Web Store User Data Policy, including the Limited Use
+        requirements.
+      </p>
+      <p>
+        User data is not used for advertising, profiling, credit decisions,
+        lending decisions, or unrelated purposes.
+      </p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>
+        This policy may be updated if the extension's functionality or data
+        practices change. The effective date will be updated when material
+        changes are made.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        For privacy questions or deletion requests, contact
+        <a href="mailto:thenestgarden02096@gmail.com">YOUR SUPPORT EMAIL</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>WP Smart Image Inserter Privacy Policy</p>
+  </footer>
+</body>
+</html>
